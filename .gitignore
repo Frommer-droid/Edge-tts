@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+.env
+.env.*
+logs/
+edge_tts_settings.json
+custom_dictionary.txt
+gemini_triggers.txt
+gemini_stats.json
+vless_config.json
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+Edge_TTS_Desktop/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local docs/configs to ignore
+Алгоритм версирования и генерации Release Notes.md
+1. Edge-TTS (Лучший _полу-облачный_ вариант)__Нужн.md
+Build_Tools/PyCompiler_settings.json
+*.lnk
+*.mp3
+reproduce_issue.py
+test_*.py
+00_*
+test_subtitles.srt
+marked_text.txt.example
+debug_log.txt
